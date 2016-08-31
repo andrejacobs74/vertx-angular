@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/base.css">
+	</head>
+	<body>
+		<nav id="hmnavbar" class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="navCtrl">
+			<div class="container-fluid">
+				<div class="">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand">Vertx micro service with AngularJS</a>
+					</div>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<p class="navbar-text navbar-right nav-info">
+							<span>{{info}}</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="row base">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<div class="center">
+					<div info title="Vertx WS / Rest"></div>
+				</div>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+		
+		<script type="text/javascript" src="lib/angular.js"></script>
+		<script type="text/javascript" src="app/app.js"></script>
+	</body>
+</html>

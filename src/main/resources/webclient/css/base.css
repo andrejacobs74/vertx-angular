@@ -1,0 +1,12 @@
+.base{
+    margin-top: 50px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.nav-info {
+    margin-right: 10px;
+}

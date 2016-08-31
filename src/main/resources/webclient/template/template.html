@@ -1,0 +1,18 @@
+<div>
+	<h1>{{title}}</h1>
+
+	<div class="list-group">
+		<button type="button" class="list-group-item" ng-click="startWS()">Open WS</button>
+		<button type="button" class="list-group-item" ng-click="closeWS()">Close WS</button>
+		<button type="button" class="list-group-item" ng-click="sendWS()" ng-disabled="disabled">Send Data WS</button><br/>
+	</div>
+	<div class="well well-sm" ng-class="getWsState()">ws connected:{{wsstate}}</div>
+	<div class="well well-sm">Ws: {{data}}</div>
+
+	<h1>RestFul</h1>
+	<div class="list-group">
+		<button type="button" class="list-group-item" ng-click="clickHandler()">Rest</button>
+	</div>
+	<div class="well well-sm">Rest: {{restData.name}}</div>
+	
+</div>
